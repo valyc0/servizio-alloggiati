@@ -1,0 +1,29 @@
+/* App-specific styles */
+
+/* Apply transition to collapsible sections */
+.MuiCollapse-root {
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Style for paper containers */
+.MuiPaper-root {
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.MuiPaper-root:hover {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),
+              0px 5px 8px 0px rgba(0,0,0,0.14),
+              0px 1px 14px 0px rgba(0,0,0,0.12);
+}
+
+/* Style for guest registration form sections */
+.guest-section {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 4px;
+}
+
+/* Style for the admin dashboard filters */
+.filters-section {
+  margin-bottom: 2rem;
+}

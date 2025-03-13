@@ -1,0 +1,22 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Override Material-UI styles for better table readability */
+.MuiTableRow-root:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Add some spacing to the main content */
+.MuiContainer-root {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
